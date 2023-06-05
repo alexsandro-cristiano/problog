@@ -1,0 +1,28 @@
+.wrapper {
+  padding: 1.5rem 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem 2rem;
+  height: 100vh;
+}
+.wrapper .load {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper .load h2 {
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper {
+    padding: 1.5rem 5rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .wrapper {
+    padding: 1.5rem 10rem;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+}

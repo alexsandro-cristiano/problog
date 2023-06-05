@@ -1,0 +1,60 @@
+.card {
+  border: 1px solid #dfdfdf;
+  border-radius: 4px;
+}
+.boxImage {
+  height: 15rem;
+  overflow: hidden;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f0f0f0;
+}
+.tagInfo {
+  transform: rotate(30deg);
+  font-style: italic;
+  opacity: 0.5;
+}
+.wrapperText {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 0.75rem;
+  gap: 0.25rem;
+}
+.wrapperText .title {
+  font-size: 1rem;
+  font-weight: 500;
+  min-height: 5.6rem;
+  text-transform: capitalize;
+}
+.wrapperText .body {
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.wrapperText .author {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+.wrapperText .author p {
+  font-size: 0.875rem;
+  opacity: 0.7;
+}
+@media screen and (min-width: 992px) {
+  .wrapperText,
+  .wrapperText .author {
+    gap: 0.75rem;
+  }
+  .wrapperText .title {
+    font-size: 1.25rem;
+  }
+
+  .wrapperText .author p {
+    font-size: 1rem;
+  }
+}

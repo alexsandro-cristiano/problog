@@ -1,0 +1,10 @@
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: -1rem;
+}
+.icon nav {
+  padding: 0.5rem;
+  cursor: pointer;
+}

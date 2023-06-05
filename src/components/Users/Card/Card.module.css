@@ -1,0 +1,44 @@
+.genericBox {
+  padding: 0.75rem;
+  border-radius: 4px;
+  box-shadow: 0px 0px 5px 2px rgba(128, 128, 128, 0.8);
+  -webkit-box-shadow: 0px 0px 5px 2px rgba(128, 128, 128, 0.8);
+  -moz-box-shadow: 0px 0px 5px 2px rgba(128, 128, 128, 0.8);
+}
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+.profile > header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profile > header .border {
+  border-radius: 50%;
+  border: 2px solid black;
+}
+.profile header strong,
+.profile header span {
+  text-transform: capitalize;
+}
+.profile header strong {
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+.profile header span {
+  font-size: 0.75rem;
+}
+.profile .details {
+  margin-top: 0.75rem;
+}
+.profile .link {
+  margin-top: 1rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 16px;
+}
